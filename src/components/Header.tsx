@@ -13,7 +13,10 @@ export default function Header() {
             alt="Logo"
             height="100"
             />
-            <Typography variant="h2" sx={{paddingInline:5}}>{data ? data.team.displayName : "Not found"}</Typography>
+            <Typography variant="h2" sx={{ paddingInline: 5, fontFamily: "'Creepster', cursive" }}>
+            {data ? data.team.displayName : "Not found"}
+            </Typography>
+
         </Toolbar>
       </AppBar>
       </Box>

@@ -7,11 +7,18 @@ export type Athlete = {
     jersey: number;
     position: Position;
     college: College; 
+    headshot: Headshot;
+    slug: string;
 }
 
 export type Data = {
     athletes: [Specialty, Specialty, Specialty]
     team: Team
+}
+
+export type Headshot ={
+    href: string;
+    alt: string;
 }
 
 export type Specialty = {

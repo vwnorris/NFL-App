@@ -1,0 +1,75 @@
+body {
+    background-color: #1A2027;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  h2, h3, h5 {
+    color: #A590B9;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .AppBar {
+    background-color: #2D3142;
+    border-bottom: 3px solid #A590B9;
+  }
+  
+  .Card {
+    background-color: #4E5166;
+    color: #B9BBBE;
+    border: 2px solid #A590B9;
+    border-radius: 5px;
+  }
+  
+  .CardContent {
+    padding: 10px;
+  }
+  
+  .Button {
+    background-color: #4E5166;
+    color: #B9BBBE;
+    border: 2px solid #A590B9;
+    border-radius: 5px;
+    text-transform: none;
+  }
+  
+  .Button:hover {
+    background-color: #2D3142;
+    color: #A590B9;
+  }
+  
+  .App {
+    background-color: #303030;
+    padding: 20px;
+  }
+  
+  .MuiCard-root {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+  }
+  
+  .MuiCard-root:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  .MuiTypography-h5 {
+    text-transform: uppercase;
+  }
+  
+  .MuiTypography-em {
+    font-style: normal;
+    color: #5c6bc0; /* Grey */
+  }
+  
+  .MuiButtonBase-root {
+    text-transform: uppercase;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #9a58b9, 0 0 20px #9a58b9, 0 0 30px #9a58b9;
+  }
+  
