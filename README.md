@@ -1,4 +1,5 @@
-# This is a simple project made using an NFL REST-Api to get information about players on different teams. 
+# NFL App:
+This is a simple project made using an NFL REST-Api to get information about players on different teams. 
 
 ## Available Scripts
 
